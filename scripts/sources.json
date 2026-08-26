@@ -1,0 +1,8 @@
+﻿{
+  "superpowers": "obra/superpowers@main",
+  "voltagent": "VoltAgent/skills@main",
+  "addy-agent": "addyosmani/agent-skills@main",
+  "alireza": "alirezarezvani/claude-skills@main",
+  "readme": "d-o-hub/github-template-ai-agents@main",
+  "prompt-enhancer": "brixtonpham/claude-config@main"
+}
