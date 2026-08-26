@@ -122,7 +122,12 @@ if ($core -or $all) {
             }
         }
         if ($all) {
-            Write-Host "[dryRun] Would merge opencode.json skills: [`"C:/Users/srija/.config/opencode/crazy-skills/skills`"]"
+            $dryRunSkillPath = Join-Path $HOME ".config/opencode/crazy-skills/skills"
+            if (-not $HOME -or $HOME -eq "") {
+                $dryRunSkillPath = Join-Path $env:USERPROFILE ".config/opencode/crazy-skills/skills"
+            }
+            $dryRunSkillPath = $dryRunSkillPath.Replace('\', '/')
+            Write-Host "[dryRun] Would merge opencode.json skills: [`"$dryRunSkillPath`"]"
         }
         exit 0
     }
@@ -146,8 +151,7 @@ if ($core -or $all) {
         # Use Robocopy if available, else fallback to Copy-Item
         $robocopy = Get-Command robocopy -ErrorAction SilentlyContinue
         if ($robocopy) {
-            # Robocopy requires quoted paths already handled; use call operator
-            & robocopy "`"$src`"" "`"$dest`"" /E /NFL /NDL /NJH /NJS /R:1 /W:1 | Out-Null
+            & robocopy "$src" "$dest" /E /NFL /NDL /NJH /NJS /R:1 /W:1 | Out-Null
             $rc = $LASTEXITCODE
             # Robocopy exit codes 0-7 are success, 8+ are failures
             if ($rc -ge 8) {
@@ -163,7 +167,11 @@ if ($core -or $all) {
 
     if ($all) {
         $opencodeJsonPath = "opencode.json"
-        $desiredSkillPath = "C:/Users/srija/.config/opencode/crazy-skills/skills"
+        $desiredSkillPath = Join-Path $HOME ".config/opencode/crazy-skills/skills"
+        if (-not $HOME -or $HOME -eq "") {
+            $desiredSkillPath = Join-Path $env:USERPROFILE ".config/opencode/crazy-skills/skills"
+        }
+        $desiredSkillPath = $desiredSkillPath.Replace('\', '/')
         # Also handle alternative path with forward slashes vs backslashes; keep as specified
         if (-not (Test-Path -LiteralPath "$opencodeJsonPath")) {
             Write-Error "opencode.json not found at `"$opencodeJsonPath`""

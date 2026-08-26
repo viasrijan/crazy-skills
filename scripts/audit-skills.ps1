@@ -157,7 +157,7 @@ foreach ($p in $paths) {
 
 if ($bad -and $bad.Count -gt 0) {
     foreach ($msg in $bad) {
-        Write-Error "$msg"
+        Write-Error "$msg" -ErrorAction Continue
     }
     Write-Host "audit-skills: FAIL ($($bad.Count) issue(s))"
     exit 1
