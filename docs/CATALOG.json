@@ -1,6 +1,140 @@
-﻿[{
-    "name":  "crazy-skills-catalog",
-    "description":  "Use when you need a skill not in Core, want to browse all 60+ extended skills, or don\u0027t know which skill fits â€” discover and install on demand.",
-    "path":  "skills/_catalog/crazy-skills-catalog/SKILL.md",
-    "group":  "_catalog"
-}]
+﻿[
+    {
+        "name":  "crazy-skills-catalog",
+        "description":  "Use when you need a skill not in Core, want to browse all 60+ extended skills, or don\u0027t know which skill fits â€” discover and install on demand.",
+        "path":  "skills/_catalog/crazy-skills-catalog/SKILL.md",
+        "group":  "_catalog"
+    },
+    {
+        "name":  "subagent-driven-development",
+        "description":  "Use when executing implementation plans with independent tasks in the current session",
+        "path":  "skills/build/subagent-driven-development/SKILL.md",
+        "group":  "build"
+    },
+    {
+        "name":  "frontend-design",
+        "description":  "Use when building or auditing frontend UI â€” components, design systems, or avoiding generic AI aesthetics. Applies production-grade design principles and Vercel interface guidelines.",
+        "path":  "skills/design/frontend-design/SKILL.md",
+        "group":  "design"
+    },
+    {
+        "name":  "system-architecture",
+        "description":  "Use when designing system architecture, microservices, or evaluating scalability and technology trade-offs â€” microservices review and risk identification.",
+        "path":  "skills/design/system-architecture/SKILL.md",
+        "group":  "design"
+    },
+    {
+        "name":  "git-workflow-and-versioning",
+        "description":  "Use when making any code change â€” trunk-based development, atomic commits, change sizing (~100 lines), and the commit-as-save-point pattern.",
+        "path":  "skills/devops/git-workflow-and-versioning/SKILL.md",
+        "group":  "devops"
+    },
+    {
+        "name":  "using-git-worktrees",
+        "description":  "Use when starting feature work that needs isolation from current workspace or before executing implementation plans - ensures an isolated workspace exists via native tools or git worktree fallback",
+        "path":  "skills/devops/using-git-worktrees/SKILL.md",
+        "group":  "devops"
+    },
+    {
+        "name":  "using-crazy-skills",
+        "description":  "Use when starting any conversation in a Crazy Skills project â€” establishes how to find and use Crazy Skills, requiring skill invocation before ANY response including clarifying questions",
+        "path":  "skills/meta/using-crazy-skills/SKILL.md",
+        "group":  "meta"
+    },
+    {
+        "name":  "writing-skills",
+        "description":  "Use when creating new skills, editing existing skills, or verifying skills work before deployment",
+        "path":  "skills/meta/writing-skills/SKILL.md",
+        "group":  "meta"
+    },
+    {
+        "name":  "core-web-vitals",
+        "description":  "Use when diagnosing or optimizing LCP, INP, CLS â€” Core Web Vitals at the 75th percentile (LCP â‰¤2.5s, INP â‰¤200ms, CLS â‰¤0.1).",
+        "path":  "skills/performance/core-web-vitals/SKILL.md",
+        "group":  "performance"
+    },
+    {
+        "name":  "performance-optimization",
+        "description":  "Use when optimizing performance â€” measure first, then profile, bundle, and fix loading or runtime. Covers Core Web Vitals targets, profiling workflows, and React/Next.js patterns.",
+        "path":  "skills/performance/performance-optimization/SKILL.md",
+        "group":  "performance"
+    },
+    {
+        "name":  "prompt-enhancement",
+        "description":  "Use when enhancing or optimizing input prompts â€” transform vague prompts into precision instructions with RSCIT, hallucination guards, and compression to get the best results.",
+        "path":  "skills/productivity/prompt-enhancement/SKILL.md",
+        "group":  "productivity"
+    },
+    {
+        "name":  "token-efficiency",
+        "description":  "Use when you want to minimize token usage â€” efficient file reads, command execution, output handling, and model selection for cost-effective sessions.",
+        "path":  "skills/productivity/token-efficiency/SKILL.md",
+        "group":  "productivity"
+    },
+    {
+        "name":  "systematic-debugging",
+        "description":  "Use when encountering any bug, test failure, or unexpected behavior, before proposing fixes",
+        "path":  "skills/quality/systematic-debugging/SKILL.md",
+        "group":  "quality"
+    },
+    {
+        "name":  "test-driven-development",
+        "description":  "Use when implementing any feature or bugfix, before writing implementation code",
+        "path":  "skills/quality/test-driven-development/SKILL.md",
+        "group":  "quality"
+    },
+    {
+        "name":  "verification-before-completion",
+        "description":  "Use when about to claim work is complete, fixed, or passing, before committing or creating PRs - requires running verification commands and confirming output before making any success claims; evidence before assertions always",
+        "path":  "skills/quality/verification-before-completion/SKILL.md",
+        "group":  "quality"
+    },
+    {
+        "name":  "receiving-code-review",
+        "description":  "Use when receiving code review feedback, before implementing suggestions, especially if feedback seems unclear or technically questionable - requires technical rigor and verification, not performative agreement or blind implementation",
+        "path":  "skills/review/receiving-code-review/SKILL.md",
+        "group":  "review"
+    },
+    {
+        "name":  "requesting-code-review",
+        "description":  "Use when completing tasks, implementing major features, or before merging to verify work meets requirements",
+        "path":  "skills/review/requesting-code-review/SKILL.md",
+        "group":  "review"
+    },
+    {
+        "name":  "security-and-hardening",
+        "description":  "Use when handling user input, auth, secrets, or external integrations â€” prevent OWASP Top 10, enforce auth patterns, secrets management, and dependency auditing.",
+        "path":  "skills/security/security-and-hardening/SKILL.md",
+        "group":  "security"
+    },
+    {
+        "name":  "brainstorming",
+        "description":  "You MUST use this before any creative work - creating features, building components, adding functionality, or modifying behavior. Explores user intent, requirements and design before implementation.",
+        "path":  "skills/workflow/brainstorming/SKILL.md",
+        "group":  "workflow"
+    },
+    {
+        "name":  "dispatching-parallel-agents",
+        "description":  "Use when facing 2+ independent tasks that can be worked on without shared state or sequential dependencies",
+        "path":  "skills/workflow/dispatching-parallel-agents/SKILL.md",
+        "group":  "workflow"
+    },
+    {
+        "name":  "executing-plans",
+        "description":  "Use when you have a written implementation plan to execute in a separate session with review checkpoints",
+        "path":  "skills/workflow/executing-plans/SKILL.md",
+        "group":  "workflow"
+    },
+    {
+        "name":  "finishing-a-development-branch",
+        "description":  "Use when implementation is complete, all tests pass, and you need to decide how to integrate the work",
+        "path":  "skills/workflow/finishing-a-development-branch/SKILL.md",
+        "group":  "workflow"
+    },
+    {
+        "name":  "writing-plans",
+        "description":  "Use when you have a spec or requirements for a multi-step task, before touching code",
+        "path":  "skills/workflow/writing-plans/SKILL.md",
+        "group":  "workflow"
+    }
+]
