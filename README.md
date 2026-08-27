@@ -1,19 +1,19 @@
-# Crazy Skills
+﻿# Crazy Skills
 
-[![GitHub stars](https://img.shields.io/github/stars/viasrijan/crazy-skills?style=social)](https://github.com/viasrijan/crazy-skills) [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE) [![CI](https://img.shields.io/github/actions/workflow/status/viasrijan/crazy-skills/ci.yml?label=ci)](https://github.com/viasrijan/crazy-skills/actions) [![Skills](https://img.shields.io/badge/skills-53-brightgreen)](docs/CATALOG.md) [![OpenCode](https://img.shields.io/badge/OpenCode-native-blue)](https://opencode.ai)
+[![GitHub stars](https://img.shields.io/github/stars/viasrijan/crazy-skills?style=social)](https://github.com/viasrijan/crazy-skills) [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE) [![CI](https://img.shields.io/github/actions/workflow/status/viasrijan/crazy-skills/ci.yml?label=ci)](https://github.com/viasrijan/crazy-skills/actions) [![Skills](https://img.shields.io/badge/skills-65-brightgreen)](docs/CATALOG.md) [![OpenCode](https://img.shields.io/badge/OpenCode-native-blue)](https://opencode.ai)
 
-> **Curated OpenCode-native skills — the best code from the best sectors, organized to use strategically without context overload.** 18 Core always-on, 35 Extended on demand. Two-tier smart catalog.
+> **Curated OpenCode-native skills â€” the best code from the best sectors, organized to use strategically without context overload.** 18 Core always-on, 35 Extended on demand. Two-tier smart catalog.
 
-**Sources:** `obra/superpowers` · `VoltAgent/skills` · `addyosmani/agent-skills` · `alirezarezvani/claude-skills` · `d-o-hub/readme-best-practices` · `brixtonpham/claude-config` · Anthropic skills
+**Sources:** `obra/superpowers` Â· `VoltAgent/skills` Â· `addyosmani/agent-skills` Â· `alirezarezvani/claude-skills` Â· `d-o-hub/readme-best-practices` Â· `brixtonpham/claude-config` Â· Anthropic skills
 
 ---
 
-## ✨ Features
+## âœ¨ Features
 
 | Category | Example Skills | Purpose |
 |---|---|---|
 | **design** | `frontend-design`, `system-architecture` | Production UI + scalability review |
-| **workflow** | `brainstorming`, `writing-plans`, `executing-plans`, `dispatching-parallel-agents`, `finishing-a-development-branch` | Socratic design → executable plan → parallel execution |
+| **workflow** | `brainstorming`, `writing-plans`, `executing-plans`, `dispatching-parallel-agents`, `finishing-a-development-branch` | Socratic design â†’ executable plan â†’ parallel execution |
 | **build** | `subagent-driven-development` | One subagent per task + 2-stage review |
 | **quality** | `test-driven-development`, `systematic-debugging`, `verification-before-completion` | RED-GREEN-REFACTOR, 4-phase debugging, evidence gate |
 | **review** | `requesting-code-review`, `receiving-code-review`, `adverse-review` | Reviewer dispatch + receiving discipline + 3-persona adversarial |
@@ -24,25 +24,25 @@
 | **docs** | `readme-generation`, `documentation-and-adrs` | High-converting READMEs + ADRs |
 | **data/AI** | `voltagent-best-practices`, `agent-designer`, `mcp-server-builder` | VoltAgent, RAG, MCP |
 
-Full auto-generated index: [`docs/CATALOG.md`](docs/CATALOG.md) · [`docs/CATALOG.json`](docs/CATALOG.json)
+Full auto-generated index: [`docs/CATALOG.md`](docs/CATALOG.md) Â· [`docs/CATALOG.json`](docs/CATALOG.json)
 
 ---
 
-## 🚀 Quick Start
+## ðŸš€ Quick Start
 
 ```powershell
 git clone https://github.com/viasrijan/crazy-skills.git
 cd crazy-skills
 
-# Core — everyday use (23 skills → ~/.config/opencode/skills/, ~3.3k tokens)
+# Core â€” everyday use (23 skills â†’ ~/.config/opencode/skills/, ~3.3k tokens)
 .\scripts\install.ps1 --core
 
-# Restart OpenCode — skill tool now lists Core
+# Restart OpenCode â€” skill tool now lists Core
 # Use skill: "Use skill brainstorming" or "Use skill token-efficiency"
 
-# Extended — per-project on demand
+# Extended â€” per-project on demand
 .\scripts\install.ps1 --pick readme-generation --dryRun  # preview
-.\scripts\install.ps1 --pick readme-generation           # → .opencode/skills/readme-generation/
+.\scripts\install.ps1 --pick readme-generation           # â†’ .opencode/skills/readme-generation/
 # or browse: Use skill crazy-skills-catalog
 ```
 
@@ -78,34 +78,34 @@ Add to `~/.config/opencode/opencode.json`:
 
 ---
 
-## 🗂 Hybrid Taxonomy
+## ðŸ—‚ Hybrid Taxonomy
 
 ```
 skills/
-├── _catalog/crazy-skills-catalog/SKILL.md  # gateway to Extended (always Core)
-├── design/        frontend-design, system-architecture
-├── workflow/      brainstorming, writing-plans, executing-plans, dispatching-parallel-agents, finishing-a-development-branch
-├── build/         subagent-driven-development
-├── quality/       test-driven-development, systematic-debugging, verification-before-completion
-├── review/        requesting-code-review, receiving-code-review
-├── security/      security-and-hardening
-├── performance/   performance-optimization, core-web-vitals
-├── productivity/  token-efficiency, prompt-enhancement, context-compression
-├── devops/        using-git-worktrees, git-workflow-and-versioning
-├── meta/          using-crazy-skills, writing-skills
-├── docs/          readme-generation, documentation-and-adrs
-└── extended/      27 composites (voltagent, addy interview→spec, alireza agent/mcp/tech-debt, web-quality, etc.)
+â”œâ”€â”€ _catalog/crazy-skills-catalog/SKILL.md  # gateway to Extended (always Core)
+â”œâ”€â”€ design/        frontend-design, system-architecture
+â”œâ”€â”€ workflow/      brainstorming, writing-plans, executing-plans, dispatching-parallel-agents, finishing-a-development-branch
+â”œâ”€â”€ build/         subagent-driven-development
+â”œâ”€â”€ quality/       test-driven-development, systematic-debugging, verification-before-completion
+â”œâ”€â”€ review/        requesting-code-review, receiving-code-review
+â”œâ”€â”€ security/      security-and-hardening
+â”œâ”€â”€ performance/   performance-optimization, core-web-vitals
+â”œâ”€â”€ productivity/  token-efficiency, prompt-enhancement, context-compression
+â”œâ”€â”€ devops/        using-git-worktrees, git-workflow-and-versioning
+â”œâ”€â”€ meta/          using-crazy-skills, writing-skills
+â”œâ”€â”€ docs/          readme-generation, documentation-and-adrs
+â””â”€â”€ extended/      27 composites (voltagent, addy interviewâ†’spec, alireza agent/mcp/tech-debt, web-quality, etc.)
 ```
 
-OpenCode discovers `SKILL.md` at **any depth** inside `skills/` — nested hybrid works for both `skills` array and `~/.config` copy.
+OpenCode discovers `SKILL.md` at **any depth** inside `skills/` â€” nested hybrid works for both `skills` array and `~/.config` copy.
 
 ---
 
-## 🔧 Scripts
+## ðŸ”§ Scripts
 
 | Script | Purpose | Check |
 |---|---|---|
-| `scripts/audit-skills.ps1` | Gate: frontmatter, headings, ≤500 lines, no TBD | `.\scripts\audit-skills.ps1` |
+| `scripts/audit-skills.ps1` | Gate: frontmatter, headings, â‰¤500 lines, no TBD | `.\scripts\audit-skills.ps1` |
 | `scripts/generate-catalog.ps1` | Rebuild `docs/CATALOG.md/.json` + catalog skill body | `.\scripts\generate-catalog.ps1 --check` |
 | `scripts/install.ps1` | `--core`/`--all`/`--pick`/`--list` | `.\scripts\install.ps1 --dryRun --core` |
 | `scripts/sync-upstream.ps1` | Diff pinned upstreams in `scripts/sources.json` | `.\scripts\sync-upstream.ps1 --check` |
@@ -114,28 +114,30 @@ Pinned upstreams: [`scripts/sources.json`](scripts/sources.json) (6 sources @ `m
 
 ---
 
-## 📖 Docs
+## ðŸ“– Docs
 
 - Design spec: [`docs/superpowers/specs/2026-08-26-crazy-skills-design.md`](docs/superpowers/specs/2026-08-26-crazy-skills-design.md)
 - Plan: [`docs/superpowers/plans/2026-08-26-crazy-skills-plan.md`](docs/superpowers/plans/2026-08-26-crazy-skills-plan.md)
-- Curation: [`docs/CURATION.md`](docs/CURATION.md) (Collect → Score → Composite → Normalize → Attribute)
+- Curation: [`docs/CURATION.md`](docs/CURATION.md) (Collect â†’ Score â†’ Composite â†’ Normalize â†’ Attribute)
 - Attribution: [`ATTRIBUTION.md`](ATTRIBUTION.md)
 
 ---
 
-## 🤝 Contributing
+## ðŸ¤ Contributing
 
 1. Open an issue `skill-proposal` (sector, source URL, why canonical doesn't cover)
-2. Branch `feat/<skill-name>` → add `skills/<category>/<name>/SKILL.md` (template above, ≤500 lines)
+2. Branch `feat/<skill-name>` â†’ add `skills/<category>/<name>/SKILL.md` (template above, â‰¤500 lines)
 3. `.\scripts\audit-skills.ps1 --skill <category>/<name>` + `.\scripts\generate-catalog.ps1` must pass
 4. PR must cite source commit SHA and keep `docs/CATALOG.md` regenerated
 
 ---
 
-## 📄 License
+## ðŸ“„ License
 
-MIT © 2026 viasrijan — see [LICENSE](LICENSE). Per-skill attribution in [`ATTRIBUTION.md`](ATTRIBUTION.md) and each `SKILL.md` footer.
+MIT Â© 2026 viasrijan â€” see [LICENSE](LICENSE). Per-skill attribution in [`ATTRIBUTION.md`](ATTRIBUTION.md) and each `SKILL.md` footer.
 
 ---
 
-**Install count:** `npx skills add viasrijan/crazy-skills` (skills.sh) — coming soon. Star this repo to get release notifications.
+**Install count:** `npx skills add viasrijan/crazy-skills` (skills.sh) â€” coming soon. Star this repo to get release notifications.
+
+
