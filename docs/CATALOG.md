@@ -5,3 +5,9 @@
 | Skill | Description | Path |
 |---|---|---|
 
+### _catalog
+
+| Skill | Description | Path |
+|---|---|---|
+| crazy-skills-catalog | Use when you need a skill not in Core, want to browse all 60+ extended skills, or don't know which skill fits â€” discover and install on demand. | skills/_catalog/crazy-skills-catalog/SKILL.md |
+
