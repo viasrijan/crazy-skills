@@ -49,15 +49,30 @@
 |---|---|---|
 | accessibility | Use when improving accessibility â€” WCAG 2.2 compliance across Perceivable, Operable, Understandable, Robust. | skills/extended/accessibility/SKILL.md |
 | adverse-review | Use when you want adversarial multi-agent review â€” 3 reviewers (Auditor, Adversary, Pragmatist) for high-stakes changes. | skills/extended/adverse-review/SKILL.md |
+| agent-designer | Use when designing multi-agent orchestration â€” patterns for delegation and coordination. | skills/extended/agent-designer/SKILL.md |
 | api-and-interface-design | Use when designing APIs or module boundaries â€” contract-first, Hyrum Law, error semantics. | skills/extended/api-and-interface-design/SKILL.md |
+| best-practices | Use when applying web best practices â€” security headers, modern APIs, error handling. | skills/extended/best-practices/SKILL.md |
 | browser-testing-with-devtools | Use when testing or debugging browser apps â€” Chrome DevTools MCP for DOM, console, network, and traces. | skills/extended/browser-testing-with-devtools/SKILL.md |
+| canvas-design | Use when rendering layout-based visual designs in PNG/PDF with design principles. | skills/extended/canvas-design/SKILL.md |
 | ci-cd-and-automation | Use when setting up or modifying build and deploy pipelines â€” shift left, quality gates. | skills/extended/ci-cd-and-automation/SKILL.md |
+| context-engineering | Use when output quality drops or you switch tasks â€” feed agents the right information at the right time. | skills/extended/context-engineering/SKILL.md |
+| create-voltagent | Use when creating a new VoltAgent project â€” scaffold with Hono/Elysia, provider, and workflow. | skills/extended/create-voltagent/SKILL.md |
+| doubt-driven-development | Use when stakes are high â€” adversarial fresh-context review of every non-trivial decision. | skills/extended/doubt-driven-development/SKILL.md |
 | frontend-ui-engineering | Use when building UI components â€” design systems, state, responsive, a11y. | skills/extended/frontend-ui-engineering/SKILL.md |
+| idea-refine | Use when you have a rough concept that needs divergent and convergent exploration. | skills/extended/idea-refine/SKILL.md |
 | incremental-implementation | Use when implementing changes touching multiple files â€” thin vertical slices, feature flags, rollback-friendly. | skills/extended/incremental-implementation/SKILL.md |
+| interview-me | Use when the request is underspecified â€” interview one question at a time until 95% confidence. | skills/extended/interview-me/SKILL.md |
+| mcp-server-builder | Use when building an MCP server from an OpenAPI spec. | skills/extended/mcp-server-builder/SKILL.md |
 | observability-and-instrumentation | Use when adding telemetry â€” structured logging, RED metrics, OpenTelemetry tracing for production. | skills/extended/observability-and-instrumentation/SKILL.md |
+| performance | Use when optimizing web performance â€” field/lab measurement, traces, and loading fixes. | skills/extended/performance/SKILL.md |
+| planning-and-task-breakdown | Use when you have a spec and need small verifiable tasks with acceptance criteria. | skills/extended/planning-and-task-breakdown/SKILL.md |
 | seo | Use when optimizing for SEO â€” technical, on-page, structured data, and mobile-friendliness. | skills/extended/seo/SKILL.md |
+| source-driven-development | Use when you need authoritative framework code â€” verify and cite official docs. | skills/extended/source-driven-development/SKILL.md |
+| spec-driven-development | Use when starting a new project or significant change â€” write a PRD before any code. | skills/extended/spec-driven-development/SKILL.md |
+| tech-debt-tracker | Use when assessing tech debt â€” scan, score severity, and generate prioritized remediation plans. | skills/extended/tech-debt-tracker/SKILL.md |
 | voltagent-best-practices | Use when building VoltAgent projects â€” choose agents vs workflows, layout, memory, and observability patterns. | skills/extended/voltagent-best-practices/SKILL.md |
 | voltagent-core-reference | Use when you need VoltAgent class reference â€” constructor options, lifecycle, and runtime behavior. | skills/extended/voltagent-core-reference/SKILL.md |
+| voltagent-docs-bundle | Use when you need version-matched VoltAgent docs â€” lookup API signatures and guides from node_modules. | skills/extended/voltagent-docs-bundle/SKILL.md |
 | web-quality-audit | Use when auditing web quality â€” orchestrate performance, a11y, SEO, best-practices across Lighthouse categories. | skills/extended/web-quality-audit/SKILL.md |
 
 

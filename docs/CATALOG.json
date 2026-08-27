@@ -60,9 +60,21 @@
         "group":  "extended"
     },
     {
+        "name":  "agent-designer",
+        "description":  "Use when designing multi-agent orchestration â€” patterns for delegation and coordination.",
+        "path":  "skills/extended/agent-designer/SKILL.md",
+        "group":  "extended"
+    },
+    {
         "name":  "api-and-interface-design",
         "description":  "Use when designing APIs or module boundaries â€” contract-first, Hyrum Law, error semantics.",
         "path":  "skills/extended/api-and-interface-design/SKILL.md",
+        "group":  "extended"
+    },
+    {
+        "name":  "best-practices",
+        "description":  "Use when applying web best practices â€” security headers, modern APIs, error handling.",
+        "path":  "skills/extended/best-practices/SKILL.md",
         "group":  "extended"
     },
     {
@@ -72,9 +84,33 @@
         "group":  "extended"
     },
     {
+        "name":  "canvas-design",
+        "description":  "Use when rendering layout-based visual designs in PNG/PDF with design principles.",
+        "path":  "skills/extended/canvas-design/SKILL.md",
+        "group":  "extended"
+    },
+    {
         "name":  "ci-cd-and-automation",
         "description":  "Use when setting up or modifying build and deploy pipelines â€” shift left, quality gates.",
         "path":  "skills/extended/ci-cd-and-automation/SKILL.md",
+        "group":  "extended"
+    },
+    {
+        "name":  "context-engineering",
+        "description":  "Use when output quality drops or you switch tasks â€” feed agents the right information at the right time.",
+        "path":  "skills/extended/context-engineering/SKILL.md",
+        "group":  "extended"
+    },
+    {
+        "name":  "create-voltagent",
+        "description":  "Use when creating a new VoltAgent project â€” scaffold with Hono/Elysia, provider, and workflow.",
+        "path":  "skills/extended/create-voltagent/SKILL.md",
+        "group":  "extended"
+    },
+    {
+        "name":  "doubt-driven-development",
+        "description":  "Use when stakes are high â€” adversarial fresh-context review of every non-trivial decision.",
+        "path":  "skills/extended/doubt-driven-development/SKILL.md",
         "group":  "extended"
     },
     {
@@ -84,9 +120,27 @@
         "group":  "extended"
     },
     {
+        "name":  "idea-refine",
+        "description":  "Use when you have a rough concept that needs divergent and convergent exploration.",
+        "path":  "skills/extended/idea-refine/SKILL.md",
+        "group":  "extended"
+    },
+    {
         "name":  "incremental-implementation",
         "description":  "Use when implementing changes touching multiple files â€” thin vertical slices, feature flags, rollback-friendly.",
         "path":  "skills/extended/incremental-implementation/SKILL.md",
+        "group":  "extended"
+    },
+    {
+        "name":  "interview-me",
+        "description":  "Use when the request is underspecified â€” interview one question at a time until 95% confidence.",
+        "path":  "skills/extended/interview-me/SKILL.md",
+        "group":  "extended"
+    },
+    {
+        "name":  "mcp-server-builder",
+        "description":  "Use when building an MCP server from an OpenAPI spec.",
+        "path":  "skills/extended/mcp-server-builder/SKILL.md",
         "group":  "extended"
     },
     {
@@ -96,9 +150,39 @@
         "group":  "extended"
     },
     {
+        "name":  "performance",
+        "description":  "Use when optimizing web performance â€” field/lab measurement, traces, and loading fixes.",
+        "path":  "skills/extended/performance/SKILL.md",
+        "group":  "extended"
+    },
+    {
+        "name":  "planning-and-task-breakdown",
+        "description":  "Use when you have a spec and need small verifiable tasks with acceptance criteria.",
+        "path":  "skills/extended/planning-and-task-breakdown/SKILL.md",
+        "group":  "extended"
+    },
+    {
         "name":  "seo",
         "description":  "Use when optimizing for SEO â€” technical, on-page, structured data, and mobile-friendliness.",
         "path":  "skills/extended/seo/SKILL.md",
+        "group":  "extended"
+    },
+    {
+        "name":  "source-driven-development",
+        "description":  "Use when you need authoritative framework code â€” verify and cite official docs.",
+        "path":  "skills/extended/source-driven-development/SKILL.md",
+        "group":  "extended"
+    },
+    {
+        "name":  "spec-driven-development",
+        "description":  "Use when starting a new project or significant change â€” write a PRD before any code.",
+        "path":  "skills/extended/spec-driven-development/SKILL.md",
+        "group":  "extended"
+    },
+    {
+        "name":  "tech-debt-tracker",
+        "description":  "Use when assessing tech debt â€” scan, score severity, and generate prioritized remediation plans.",
+        "path":  "skills/extended/tech-debt-tracker/SKILL.md",
         "group":  "extended"
     },
     {
@@ -111,6 +195,12 @@
         "name":  "voltagent-core-reference",
         "description":  "Use when you need VoltAgent class reference â€” constructor options, lifecycle, and runtime behavior.",
         "path":  "skills/extended/voltagent-core-reference/SKILL.md",
+        "group":  "extended"
+    },
+    {
+        "name":  "voltagent-docs-bundle",
+        "description":  "Use when you need version-matched VoltAgent docs â€” lookup API signatures and guides from node_modules.",
+        "path":  "skills/extended/voltagent-docs-bundle/SKILL.md",
         "group":  "extended"
     },
     {
