@@ -60,6 +60,12 @@
         "group":  "extended"
     },
     {
+        "name":  "aeo",
+        "description":  "Use when optimizing for Answer Engine Optimization â€” LLM citation tracking and E-E-A-T.",
+        "path":  "skills/extended/aeo/SKILL.md",
+        "group":  "extended"
+    },
+    {
         "name":  "agent-designer",
         "description":  "Use when designing multi-agent orchestration â€” patterns for delegation and coordination.",
         "path":  "skills/extended/agent-designer/SKILL.md",
@@ -90,9 +96,21 @@
         "group":  "extended"
     },
     {
+        "name":  "ceo-advisor",
+        "description":  "Use when making CEO decisions â€” vision, market, and organizational strategy.",
+        "path":  "skills/extended/ceo-advisor/SKILL.md",
+        "group":  "extended"
+    },
+    {
         "name":  "ci-cd-and-automation",
         "description":  "Use when setting up or modifying build and deploy pipelines â€” shift left, quality gates.",
         "path":  "skills/extended/ci-cd-and-automation/SKILL.md",
+        "group":  "extended"
+    },
+    {
+        "name":  "content-creator",
+        "description":  "Use when creating SEO blog content â€” topic research, outline, draft, and optimization.",
+        "path":  "skills/extended/content-creator/SKILL.md",
         "group":  "extended"
     },
     {
@@ -108,6 +126,18 @@
         "group":  "extended"
     },
     {
+        "name":  "cto-advisor",
+        "description":  "Use when making CTO decisions â€” tech debt, team scaling, architecture, and DORA metrics.",
+        "path":  "skills/extended/cto-advisor/SKILL.md",
+        "group":  "extended"
+    },
+    {
+        "name":  "deep-research",
+        "description":  "Use when running autonomous research â€” plan, search, read, and synthesize into reports.",
+        "path":  "skills/extended/deep-research/SKILL.md",
+        "group":  "extended"
+    },
+    {
         "name":  "doubt-driven-development",
         "description":  "Use when stakes are high â€” adversarial fresh-context review of every non-trivial decision.",
         "path":  "skills/extended/doubt-driven-development/SKILL.md",
@@ -117,6 +147,12 @@
         "name":  "frontend-ui-engineering",
         "description":  "Use when building UI components â€” design systems, state, responsive, a11y.",
         "path":  "skills/extended/frontend-ui-engineering/SKILL.md",
+        "group":  "extended"
+    },
+    {
+        "name":  "gdpr",
+        "description":  "Use when handling GDPR compliance â€” data mapping, consent, and retention.",
+        "path":  "skills/extended/gdpr/SKILL.md",
         "group":  "extended"
     },
     {
@@ -135,6 +171,18 @@
         "name":  "interview-me",
         "description":  "Use when the request is underspecified â€” interview one question at a time until 95% confidence.",
         "path":  "skills/extended/interview-me/SKILL.md",
+        "group":  "extended"
+    },
+    {
+        "name":  "iso27001",
+        "description":  "Use when implementing ISO 27001 controls â€” ISMS, risk assessment, and annex controls.",
+        "path":  "skills/extended/iso27001/SKILL.md",
+        "group":  "extended"
+    },
+    {
+        "name":  "local-seo-manager",
+        "description":  "Use when optimizing for local SEO â€” GBP, NAP, Map-Pack, and local citations.",
+        "path":  "skills/extended/local-seo-manager/SKILL.md",
         "group":  "extended"
     },
     {
@@ -162,9 +210,33 @@
         "group":  "extended"
     },
     {
+        "name":  "product-manager-toolkit",
+        "description":  "Use when acting as product manager â€” RICE, PRDs, backlog, and roadmap.",
+        "path":  "skills/extended/product-manager-toolkit/SKILL.md",
+        "group":  "extended"
+    },
+    {
+        "name":  "research-orchestrator",
+        "description":  "Use when orchestrating research â€” pulse, litreview, dossier, and grants.",
+        "path":  "skills/extended/research-orchestrator/SKILL.md",
+        "group":  "extended"
+    },
+    {
+        "name":  "saas-metrics-coach",
+        "description":  "Use when tracking SaaS metrics â€” MRR, churn, CAC, and financial analysis.",
+        "path":  "skills/extended/saas-metrics-coach/SKILL.md",
+        "group":  "extended"
+    },
+    {
         "name":  "seo",
         "description":  "Use when optimizing for SEO â€” technical, on-page, structured data, and mobile-friendliness.",
         "path":  "skills/extended/seo/SKILL.md",
+        "group":  "extended"
+    },
+    {
+        "name":  "soc2",
+        "description":  "Use when preparing for SOC 2 â€” trust criteria, evidence collection, and auditor readiness.",
+        "path":  "skills/extended/soc2/SKILL.md",
         "group":  "extended"
     },
     {
