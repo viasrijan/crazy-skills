@@ -35,6 +35,32 @@
 | using-git-worktrees | Use when starting feature work that needs isolation from current workspace or before executing implementation plans - ensures an isolated workspace exists via native tools or git worktree fallback | skills/devops/using-git-worktrees/SKILL.md |
 
 
+### docs
+
+| Skill | Description | Path |
+|---|---|---|
+| documentation-and-adrs | Use when making architectural decisions, changing APIs, or shipping features â€” write Architecture Decision Records and API docs that capture the why. | skills/docs/documentation-and-adrs/SKILL.md |
+| readme-generation | Use when writing, rewriting, or auditing a GitHub README.md â€” generate high-converting README with badges, SVG logo, and 2026 best-practice audit. | skills/docs/readme-generation/SKILL.md |
+
+
+### extended
+
+| Skill | Description | Path |
+|---|---|---|
+| accessibility | Use when improving accessibility â€” WCAG 2.2 compliance across Perceivable, Operable, Understandable, Robust. | skills/extended/accessibility/SKILL.md |
+| adverse-review | Use when you want adversarial multi-agent review â€” 3 reviewers (Auditor, Adversary, Pragmatist) for high-stakes changes. | skills/extended/adverse-review/SKILL.md |
+| api-and-interface-design | Use when designing APIs or module boundaries â€” contract-first, Hyrum Law, error semantics. | skills/extended/api-and-interface-design/SKILL.md |
+| browser-testing-with-devtools | Use when testing or debugging browser apps â€” Chrome DevTools MCP for DOM, console, network, and traces. | skills/extended/browser-testing-with-devtools/SKILL.md |
+| ci-cd-and-automation | Use when setting up or modifying build and deploy pipelines â€” shift left, quality gates. | skills/extended/ci-cd-and-automation/SKILL.md |
+| frontend-ui-engineering | Use when building UI components â€” design systems, state, responsive, a11y. | skills/extended/frontend-ui-engineering/SKILL.md |
+| incremental-implementation | Use when implementing changes touching multiple files â€” thin vertical slices, feature flags, rollback-friendly. | skills/extended/incremental-implementation/SKILL.md |
+| observability-and-instrumentation | Use when adding telemetry â€” structured logging, RED metrics, OpenTelemetry tracing for production. | skills/extended/observability-and-instrumentation/SKILL.md |
+| seo | Use when optimizing for SEO â€” technical, on-page, structured data, and mobile-friendliness. | skills/extended/seo/SKILL.md |
+| voltagent-best-practices | Use when building VoltAgent projects â€” choose agents vs workflows, layout, memory, and observability patterns. | skills/extended/voltagent-best-practices/SKILL.md |
+| voltagent-core-reference | Use when you need VoltAgent class reference â€” constructor options, lifecycle, and runtime behavior. | skills/extended/voltagent-core-reference/SKILL.md |
+| web-quality-audit | Use when auditing web quality â€” orchestrate performance, a11y, SEO, best-practices across Lighthouse categories. | skills/extended/web-quality-audit/SKILL.md |
+
+
 ### meta
 
 | Skill | Description | Path |
@@ -55,6 +81,7 @@
 
 | Skill | Description | Path |
 |---|---|---|
+| context-compression | Use when agent sessions generate long histories, context window limits are hit, or you need to preserve decisions and artifact trails across compression. | skills/productivity/context-compression/SKILL.md |
 | prompt-enhancement | Use when enhancing or optimizing input prompts â€” transform vague prompts into precision instructions with RSCIT, hallucination guards, and compression to get the best results. | skills/productivity/prompt-enhancement/SKILL.md |
 | token-efficiency | Use when you want to minimize token usage â€” efficient file reads, command execution, output handling, and model selection for cost-effective sessions. | skills/productivity/token-efficiency/SKILL.md |
 

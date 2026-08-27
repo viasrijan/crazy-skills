@@ -36,6 +36,90 @@
         "group":  "devops"
     },
     {
+        "name":  "documentation-and-adrs",
+        "description":  "Use when making architectural decisions, changing APIs, or shipping features â€” write Architecture Decision Records and API docs that capture the why.",
+        "path":  "skills/docs/documentation-and-adrs/SKILL.md",
+        "group":  "docs"
+    },
+    {
+        "name":  "readme-generation",
+        "description":  "Use when writing, rewriting, or auditing a GitHub README.md â€” generate high-converting README with badges, SVG logo, and 2026 best-practice audit.",
+        "path":  "skills/docs/readme-generation/SKILL.md",
+        "group":  "docs"
+    },
+    {
+        "name":  "accessibility",
+        "description":  "Use when improving accessibility â€” WCAG 2.2 compliance across Perceivable, Operable, Understandable, Robust.",
+        "path":  "skills/extended/accessibility/SKILL.md",
+        "group":  "extended"
+    },
+    {
+        "name":  "adverse-review",
+        "description":  "Use when you want adversarial multi-agent review â€” 3 reviewers (Auditor, Adversary, Pragmatist) for high-stakes changes.",
+        "path":  "skills/extended/adverse-review/SKILL.md",
+        "group":  "extended"
+    },
+    {
+        "name":  "api-and-interface-design",
+        "description":  "Use when designing APIs or module boundaries â€” contract-first, Hyrum Law, error semantics.",
+        "path":  "skills/extended/api-and-interface-design/SKILL.md",
+        "group":  "extended"
+    },
+    {
+        "name":  "browser-testing-with-devtools",
+        "description":  "Use when testing or debugging browser apps â€” Chrome DevTools MCP for DOM, console, network, and traces.",
+        "path":  "skills/extended/browser-testing-with-devtools/SKILL.md",
+        "group":  "extended"
+    },
+    {
+        "name":  "ci-cd-and-automation",
+        "description":  "Use when setting up or modifying build and deploy pipelines â€” shift left, quality gates.",
+        "path":  "skills/extended/ci-cd-and-automation/SKILL.md",
+        "group":  "extended"
+    },
+    {
+        "name":  "frontend-ui-engineering",
+        "description":  "Use when building UI components â€” design systems, state, responsive, a11y.",
+        "path":  "skills/extended/frontend-ui-engineering/SKILL.md",
+        "group":  "extended"
+    },
+    {
+        "name":  "incremental-implementation",
+        "description":  "Use when implementing changes touching multiple files â€” thin vertical slices, feature flags, rollback-friendly.",
+        "path":  "skills/extended/incremental-implementation/SKILL.md",
+        "group":  "extended"
+    },
+    {
+        "name":  "observability-and-instrumentation",
+        "description":  "Use when adding telemetry â€” structured logging, RED metrics, OpenTelemetry tracing for production.",
+        "path":  "skills/extended/observability-and-instrumentation/SKILL.md",
+        "group":  "extended"
+    },
+    {
+        "name":  "seo",
+        "description":  "Use when optimizing for SEO â€” technical, on-page, structured data, and mobile-friendliness.",
+        "path":  "skills/extended/seo/SKILL.md",
+        "group":  "extended"
+    },
+    {
+        "name":  "voltagent-best-practices",
+        "description":  "Use when building VoltAgent projects â€” choose agents vs workflows, layout, memory, and observability patterns.",
+        "path":  "skills/extended/voltagent-best-practices/SKILL.md",
+        "group":  "extended"
+    },
+    {
+        "name":  "voltagent-core-reference",
+        "description":  "Use when you need VoltAgent class reference â€” constructor options, lifecycle, and runtime behavior.",
+        "path":  "skills/extended/voltagent-core-reference/SKILL.md",
+        "group":  "extended"
+    },
+    {
+        "name":  "web-quality-audit",
+        "description":  "Use when auditing web quality â€” orchestrate performance, a11y, SEO, best-practices across Lighthouse categories.",
+        "path":  "skills/extended/web-quality-audit/SKILL.md",
+        "group":  "extended"
+    },
+    {
         "name":  "using-crazy-skills",
         "description":  "Use when starting any conversation in a Crazy Skills project â€” establishes how to find and use Crazy Skills, requiring skill invocation before ANY response including clarifying questions",
         "path":  "skills/meta/using-crazy-skills/SKILL.md",
@@ -58,6 +142,12 @@
         "description":  "Use when optimizing performance â€” measure first, then profile, bundle, and fix loading or runtime. Covers Core Web Vitals targets, profiling workflows, and React/Next.js patterns.",
         "path":  "skills/performance/performance-optimization/SKILL.md",
         "group":  "performance"
+    },
+    {
+        "name":  "context-compression",
+        "description":  "Use when agent sessions generate long histories, context window limits are hit, or you need to preserve decisions and artifact trails across compression.",
+        "path":  "skills/productivity/context-compression/SKILL.md",
+        "group":  "productivity"
     },
     {
         "name":  "prompt-enhancement",
