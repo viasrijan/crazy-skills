@@ -1,0 +1,25 @@
+name: ci
+on:
+  push:
+  pull_request:
+  schedule:
+    - cron: "0 0 1 * *"
+jobs:
+  audit:
+    runs-on: windows-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Audit skills
+        shell: pwsh
+        run: ./scripts/audit-skills.ps1
+      - name: Check catalog freshness
+        shell: pwsh
+        run: ./scripts/generate-catalog.ps1 --check
+  upstream:
+    if: github.event_name == 'schedule'
+    runs-on: windows-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Check upstream sync
+        shell: pwsh
+        run: ./scripts/sync-upstream.ps1 --check
